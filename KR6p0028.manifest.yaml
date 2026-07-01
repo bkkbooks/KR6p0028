@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6p0028/v1
+canonical_location: https://kanripo.org/bkk/KR6p0028/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 阿彌陀經約論
+  identifiers:
+    alt_id:
+    - X22n0433
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X22/X22n0433.xml
+    old_id: X22n0433
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0028_000.yaml, hash: 'sha256:b61f8c215f36518bddf32d8118c02dc1efce871bffba016b141b12334b61d745'}
+  - {seq: 1, filename: KR6p0028_001.yaml, hash: 'sha256:3f7469e2793daa60820e870f882280804a87ea728286b0f51462e9bde32f8ee9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6p0028_001.markers.yaml, hash: 'sha256:4c4416b0a3a4be8dcb7c3da4a3b1dde1d9c66f96639cf096485d1f75c7c2c469'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6p0028_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2296
+  label: 阿彌陀經約論
+  type: juan
+  level: 1
+hash: sha256:d6f590fb7f6404b9a9a6d34937de8fb9a545616256d4b2a71ef63b78818ea684
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

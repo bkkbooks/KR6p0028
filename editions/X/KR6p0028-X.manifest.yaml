@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6p0028/X/v1
+canonical_location: https://kanripo.org/bkk/KR6p0028/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 阿彌陀經約論
+  identifiers:
+    krp: KR6p0028
+    cbeta: X22n0433
+    cbeta_old_id: X22n0433
+    authorityid: CA0000037
+    json_key: X0433
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X22/X22n0433.xml
+    old_id: X22n0433
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6p0028_000-X.yaml, hash: 'sha256:b61f8c215f36518bddf32d8118c02dc1efce871bffba016b141b12334b61d745'}
+  - {seq: 1, filename: KR6p0028_001-X.yaml, hash: 'sha256:f5f5a7978197aba6bebb3e2544797e106ddc408487aac5918df440b935da596a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6p0028_000-X.markers.yaml, hash: 'sha256:43fbf29887cb12472264ecbba8c474972c8f95b351213cd1a58fc7fb60e6bec6'}
+  - {seq: 1, role: markers, filename: assets/KR6p0028_001-X.markers.yaml, hash: 'sha256:44eb35b51b4ea64abc7e92252367035874f44ee5d8eee142251ccf7bf3f479cc'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6p0028_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 2296
+  label: 阿彌陀經約論
+  type: juan
+  level: 1
+hash: sha256:c7d1c88c66366bde34057302bd1a486b90a64d827de8a35bc319d8f8acddb0e8

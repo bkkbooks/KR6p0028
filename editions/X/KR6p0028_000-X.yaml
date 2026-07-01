@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6p0028/x/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 阿彌陀經約論
+  edition:
+    short: x
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X22/X22n0433.xml
+    old_id: X22n0433
+hash: sha256:b61f8c215f36518bddf32d8118c02dc1efce871bffba016b141b12334b61d745
